@@ -1,0 +1,14 @@
+html 
+    head 
+        title='Product List'
+    body
+        h1 Product List:
+        each product in products
+            ul
+                li=(product.title)
+                li=(product.price)
+                li=(product.icon) 
+
+
+        a(href='/') 
+            button return product 
